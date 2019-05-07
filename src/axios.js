@@ -15,7 +15,7 @@ function getDetail() {
   return axios.get(URL + 'quner/detail.php')
 }
 function getWeekendHot() {
-  return axios.get('/api/singer')
+  return axios.get('/weekendhot.json')
 }
 axios.all([
   getPage(),

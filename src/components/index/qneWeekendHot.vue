@@ -27,7 +27,7 @@
           }
         },
         created(){
-          this.weekendHot = this.$store.state.weekendHot.data.WeekendHot
+          this.weekendHot = this.$store.state.weekendHot.WeekendHot
         },
         mounted(){
           this.$nextTick(()=>{
